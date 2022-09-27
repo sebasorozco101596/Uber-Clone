@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		62EA9D2E28E3ACB30088CCD2 /* Uber_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EA9D2D28E3ACB30088CCD2 /* Uber_CloneApp.swift */; };
-		62EA9D3028E3ACB30088CCD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EA9D2F28E3ACB30088CCD2 /* ContentView.swift */; };
 		62EA9D3228E3ACB40088CCD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62EA9D3128E3ACB40088CCD2 /* Assets.xcassets */; };
 		62EA9D3528E3ACB40088CCD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62EA9D3428E3ACB40088CCD2 /* Preview Assets.xcassets */; };
+		62EA9D4428E3AE290088CCD2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EA9D4328E3AE290088CCD2 /* HomeView.swift */; };
+		62EA9D4628E3AF490088CCD2 /* UberMapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EA9D4528E3AF490088CCD2 /* UberMapViewRepresentable.swift */; };
+		62EA9D4828E3B1000088CCD2 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EA9D4728E3B1000088CCD2 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		62EA9D2A28E3ACB30088CCD2 /* Uber Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uber Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62EA9D2D28E3ACB30088CCD2 /* Uber_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uber_CloneApp.swift; sourceTree = "<group>"; };
-		62EA9D2F28E3ACB30088CCD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		62EA9D3128E3ACB40088CCD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62EA9D3428E3ACB40088CCD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62EA9D4328E3AE290088CCD2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		62EA9D4528E3AF490088CCD2 /* UberMapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberMapViewRepresentable.swift; sourceTree = "<group>"; };
+		62EA9D4728E3B1000088CCD2 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,11 @@
 		62EA9D2C28E3ACB30088CCD2 /* Uber Clone */ = {
 			isa = PBXGroup;
 			children = (
-				62EA9D2D28E3ACB30088CCD2 /* Uber_CloneApp.swift */,
-				62EA9D2F28E3ACB30088CCD2 /* ContentView.swift */,
+				62EA9D3B28E3ADC30088CCD2 /* App */,
+				62EA9D3D28E3ADDC0088CCD2 /* Core */,
+				62EA9D3E28E3ADDE0088CCD2 /* Extensions */,
+				62EA9D3F28E3ADE00088CCD2 /* Managers */,
+				62EA9D4028E3ADE10088CCD2 /* Models */,
 				62EA9D3128E3ACB40088CCD2 /* Assets.xcassets */,
 				62EA9D3328E3ACB40088CCD2 /* Preview Content */,
 			);
@@ -65,6 +72,61 @@
 				62EA9D3428E3ACB40088CCD2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		62EA9D3B28E3ADC30088CCD2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				62EA9D2D28E3ACB30088CCD2 /* Uber_CloneApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		62EA9D3D28E3ADDC0088CCD2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				62EA9D4228E3AE110088CCD2 /* ViewModels */,
+				62EA9D4128E3AE0D0088CCD2 /* Views */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		62EA9D3E28E3ADDE0088CCD2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		62EA9D3F28E3ADE00088CCD2 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				62EA9D4728E3B1000088CCD2 /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		62EA9D4028E3ADE10088CCD2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		62EA9D4128E3AE0D0088CCD2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				62EA9D4328E3AE290088CCD2 /* HomeView.swift */,
+				62EA9D4528E3AF490088CCD2 /* UberMapViewRepresentable.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		62EA9D4228E3AE110088CCD2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +199,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62EA9D3028E3ACB30088CCD2 /* ContentView.swift in Sources */,
+				62EA9D4828E3B1000088CCD2 /* LocationManager.swift in Sources */,
 				62EA9D2E28E3ACB30088CCD2 /* Uber_CloneApp.swift in Sources */,
+				62EA9D4428E3AE290088CCD2 /* HomeView.swift in Sources */,
+				62EA9D4628E3AF490088CCD2 /* UberMapViewRepresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +336,7 @@
 				DEVELOPMENT_TEAM = AV4T8M55V5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please Allow us to access your location to find you nearby drivers";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +366,7 @@
 				DEVELOPMENT_TEAM = AV4T8M55V5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please Allow us to access your location to find you nearby drivers";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
