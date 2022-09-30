@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		622714FC28E68F0700E7AB6F /* LocationSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622714FB28E68F0700E7AB6F /* LocationSearchViewModel.swift */; };
 		62AF42FD28E53F6B004C14DE /* LocationSearchActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AF42FC28E53F6B004C14DE /* LocationSearchActivationView.swift */; };
 		62AF42FF28E5409E004C14DE /* MapViewActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AF42FE28E5409E004C14DE /* MapViewActionButton.swift */; };
 		62AF430128E54180004C14DE /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AF430028E54180004C14DE /* LocationSearchView.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		622714FB28E68F0700E7AB6F /* LocationSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewModel.swift; sourceTree = "<group>"; };
 		62AF42FC28E53F6B004C14DE /* LocationSearchActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchActivationView.swift; sourceTree = "<group>"; };
 		62AF42FE28E5409E004C14DE /* MapViewActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewActionButton.swift; sourceTree = "<group>"; };
 		62AF430028E54180004C14DE /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 		62AF42FB28E53F54004C14DE /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				622714FB28E68F0700E7AB6F /* LocationSearchViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				622714FC28E68F0700E7AB6F /* LocationSearchViewModel.swift in Sources */,
 				62AF430128E54180004C14DE /* LocationSearchView.swift in Sources */,
 				62EA9D4828E3B1000088CCD2 /* LocationManager.swift in Sources */,
 				62AF42FF28E5409E004C14DE /* MapViewActionButton.swift in Sources */,
