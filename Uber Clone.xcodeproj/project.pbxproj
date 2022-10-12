@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		622714FC28E68F0700E7AB6F /* LocationSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622714FB28E68F0700E7AB6F /* LocationSearchViewModel.swift */; };
+		62340F9E28F6CC7600D42989 /* MapViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62340F9D28F6CC7600D42989 /* MapViewState.swift */; };
 		62AF42FD28E53F6B004C14DE /* LocationSearchActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AF42FC28E53F6B004C14DE /* LocationSearchActivationView.swift */; };
 		62AF42FF28E5409E004C14DE /* MapViewActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AF42FE28E5409E004C14DE /* MapViewActionButton.swift */; };
 		62AF430128E54180004C14DE /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AF430028E54180004C14DE /* LocationSearchView.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		622714FB28E68F0700E7AB6F /* LocationSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewModel.swift; sourceTree = "<group>"; };
+		62340F9D28F6CC7600D42989 /* MapViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewState.swift; sourceTree = "<group>"; };
 		62AF42FC28E53F6B004C14DE /* LocationSearchActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchActivationView.swift; sourceTree = "<group>"; };
 		62AF42FE28E5409E004C14DE /* MapViewActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewActionButton.swift; sourceTree = "<group>"; };
 		62AF430028E54180004C14DE /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 		62EA9D4028E3ADE10088CCD2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				62340F9D28F6CC7600D42989 /* MapViewState.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				622714FC28E68F0700E7AB6F /* LocationSearchViewModel.swift in Sources */,
 				62AF430128E54180004C14DE /* LocationSearchView.swift in Sources */,
 				62EA9D4828E3B1000088CCD2 /* LocationManager.swift in Sources */,
+				62340F9E28F6CC7600D42989 /* MapViewState.swift in Sources */,
 				62AF42FF28E5409E004C14DE /* MapViewActionButton.swift in Sources */,
 				62AF430328E54381004C14DE /* LocationsSearchResultCell.swift in Sources */,
 				62EA9D2E28E3ACB30088CCD2 /* Uber_CloneApp.swift in Sources */,
